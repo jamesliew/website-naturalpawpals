@@ -1,0 +1,73 @@
+.main-wrapper{
+min-height: 100%;
+position: relative;
+}
+.photo-wrapper{
+padding: 10px;
+padding-bottom: 60px; /* Height of the footer */
+}
+.foot-wrapper{
+position: absolute;
+bottom: 0;
+display: block;
+width: 100%;
+height: 40px;
+background: #0a0a0a;
+}
+.logo{
+display: block;
+background-image:url('http://www.naturalpawpals.com/img/pawpals_green_button.png');
+width: 180px;
+height: 174px;
+background-repeat: no-repeat;
+margin-top: 400px;
+margin-left: 150px;
+float: left;
+}
+.logo:hover{
+display: block;
+background-position: 0 -174px;
+}
+.logo:active {
+display: none;
+}
+.fb{
+display: block;
+background-image: url('http://www.naturalpawpals.com/img/pawpals_facebook_button.png');
+width: 180px;
+height: 174px;
+background-repeat: no-repeat;
+margin-top: 400px;
+margin-left: 150px;
+float: left;
+}
+.fb:hover{
+display: block;
+background-position: 0 -174px;
+}
+.fb:active{
+display: none;
+}
+#footertag{
+position: absolute;
+top:0;
+left:0;
+width: 300px;
+margin: 0 0;
+float: left;
+font-family: "Times New Roman", Times, serif;
+font-size: 16px;
+color: #fff;
+text-align:left;
+}
+#credits{
+position: absolute;
+top:0;
+right:0;
+width: 450px;
+padding-left: 50px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+color: #fff;
+text-align: right;
+}

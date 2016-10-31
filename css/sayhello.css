@@ -1,0 +1,221 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#header {
+  	width: 100%;
+  	height: 30px;
+}
+
+.logo{
+	display: block;
+	background-image: url('http://www.naturalpawpals.com/img/pawpals_green_button.png');
+	width: 180px;
+	height: 174px;
+	background-repeat: no-repeat;
+}
+
+.logo:hover {
+	display: block;
+	background-position: 0 -174px;
+}
+
+.logo:active {
+	display: block;
+	background-position: 0 -174px;
+}
+
+#nav {
+	display: block;
+  	float: left;
+  	width: 220px;
+	height: 100%;
+}
+
+#content {
+	display: block;
+ 	float: left;
+ 	width: 750px;
+ 	height: auto;
+	margin-top: 60px;
+	margin-left: 30px;
+	padding-bottom: 180px;
+}
+
+#wrapper {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	width: 1040px;
+	height: auto;
+}
+
+#footertag {
+	position: absolute;
+	top: 650px;
+	clear:both;
+	display:block;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	color:#fff;
+  	height: 50px; 
+}
+
+#credits {
+	float: right;
+	margin-top: 50px;
+	display:block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#fff;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer {
+  	clear: both;
+  	width: 100%;
+}
+
+a.link00 {
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+a.link00:active {
+	color: #999;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+a.link00:hover {
+	color: #999;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+a.link00:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+a.link01 {
+	color: #fff;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.link01:active {
+	color: #999;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.link01:hover {
+	color: #0f0;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+a.link01:visited {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+a.link02 {
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a.link02:active {
+	color: #999;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a.link02:hover {
+	color: #999;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a.link02:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a.link03 {
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a.link03:active {
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a.link03:hover {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a.link03:visted {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#title {
+	display: block;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 60px;
+	color: #CCC;
+	width: auto;
+	height: auto;
+	text-align: left;
+}
+
+#text {
+	display: block;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #000;
+	width: auto;
+	height: auto;
+	text-align: left;
+}
+
+#ordertext {
+	padding: 10px, 0, 10px, 0;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000;
+	width: auto;
+	height: auto;
+	text-align: left;
+}

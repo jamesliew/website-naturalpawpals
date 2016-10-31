@@ -1,0 +1,40 @@
+/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+
+/* Change the width of the entire slider (without dynamic arrows) */
+.coda-slider, .coda-slider .panel {
+width: 750px;
+background: #fff;
+float: left;
+}
+
+/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+.coda-slider-no-js .coda-slider { height: 501px; overflow: auto !important;}
+
+/* Change the width of the entire slider (without dynamic arrows) */
+.coda-slider, .coda-slider .panel { width: 750px }
+
+/* Arrow styling */
+.coda-nav-left a, .coda-nav-right a { color: #fff; width: 15px; font-size: 35px;}
+
+/* Tabbed nav */
+.coda-nav ul { clear: both; display: none; margin: auto; overflow: hidden }
+.coda-nav ul li a { background: #000; color: #fff; display: none; float: left; margin-right: 1px; padding: 3px 6px; text-decoration: none }
+
+/* Miscellaneous */
+.coda-slider-wrapper { clear: both; overflow: hidden }
+.coda-slider { float: left; overflow: hidden; position: relative }
+.coda-slider .panel { display: block; float: left; height: 501px }
+.coda-slider .panel-container { position: relative }
+.coda-nav-left {
+position: absolute;
+top: 560px;
+left: 925px;
+}
+
+.coda-nav-right {
+position: absolute;
+top: 560px;
+left: 980px;
+}
+
+.coda-nav-left a, .coda-nav-right a { display: block; text-align: center; text-decoration: none }
